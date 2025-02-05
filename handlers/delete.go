@@ -31,6 +31,7 @@ func (p *Products) Delete(rw http.ResponseWriter, r *http.Request) {
 
 	if err != nil {
 		p.l.Println("[ERROR] deleting record", err)
+		p.l.Println("Sab theek")
 
 		rw.WriteHeader(http.StatusInternalServerError)
 		data.ToJSON(&GenericError{Message: err.Error()}, rw)
