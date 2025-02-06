@@ -9,7 +9,7 @@ import (
 	"os/signal"
 	"time"
 
-	gohandlers "github.com/gorilla/handler"
+	gohandlers "github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
 	"github.com/nicholasjackson/env"
 )
