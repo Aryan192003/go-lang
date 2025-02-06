@@ -1,6 +1,6 @@
 module GO
 
-go 1.23.4
+go 1.23
 
 require github.com/nicholasjackson/env v0.6.1
 
